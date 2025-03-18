@@ -1,0 +1,36 @@
+:root {
+  --color--primary: #3490dc;
+}
+
+body {
+  font-family: 'Righteous', sans-serif;
+}
+.main-one {
+  min-height: calc(100vh - 185px);
+}
+
+.podcast > img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+.radial-blur {
+  width: 500px;
+  height: 400px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  top: 370px;
+  right: 150px;
+  z-index: 0;
+}
+
+.secondpage {
+  background-color: #d9ecff;
+}
+.cart {
+  color: #5e6775;
+}
+.benifitcourse {
+  border-right: 3px dotted white;
+}
