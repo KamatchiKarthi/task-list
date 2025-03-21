@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: rgba(103, 175, 239, 0.333);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 7px;
+  padding: 15px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.memory-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+ 
+  gap: 10px;
+  justify-content: center;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

@@ -16,11 +16,11 @@ body {
 }
 .radial-blur {
   width: 500px;
-  height: 400px;
+  height: 500px;
   border-radius: 100%;
   background-color: white;
   position: absolute;
-  top: 370px;
+  top: 260px;
   right: 150px;
   z-index: 0;
 }
@@ -33,4 +33,9 @@ body {
 }
 .benifitcourse {
   border-right: 3px dotted white;
+}
+
+.podcast-gradient{
+
+  background-image: linear-gradient(#2E08C7,#7E08C7);
 }
