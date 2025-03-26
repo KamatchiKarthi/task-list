@@ -1,33 +1,69 @@
 body {
-  margin: 0;
-  background-color: rgba(103, 175, 239, 0.333);
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 205, 160);
+    width: 100vw;
+    height: 100vh;
+    
+
 }
+ 
+header {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
 
 .container {
-  background-color: white;
-  border-radius: 7px;
-  padding: 15px;
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.memory-board {
-  display: grid;
-  grid-template-columns: repeat(4, 100px);
- 
-  gap: 10px;
-  justify-content: center;
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4 ,100px);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+   width: fit-content;
+    padding: 10px;
+    
 }
-.card {
-    width: 100px;
+ 
+#game-board div {
     height: 100px;
-    background-color: aqua;
+    width: 100px;
+    border: 2px solid rgb(159, 154, 154);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+
+}
+
+.cardback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+
+#restart {
+    background-color: rgb(189, 136, 66);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+    width: 200px;
+
 }
