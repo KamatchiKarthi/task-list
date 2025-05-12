@@ -239,6 +239,7 @@ section > .trl {
 .country {
   display: flex;
   gap: 5px;
+  
 }
 .country > img {
   object-fit: contain;
@@ -279,183 +280,74 @@ section > .trl {
   visibility: visible;
 }
 
-.section-4 {
+.pagefourheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: #fefcfb;
+}
 
-  .main_container_4 {
-    flex-direction: column;
-    width: 100%;
+.pagefourheading > h2 {
+  font-size: 48px;
+  margin-top: 50px;
+}
+.pagefourheading > pre {
+  font-size: 18px;
+  color: #666666;
+  width: 420px;
+}
+.vaction_cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.vact_card {
+  width: 370px;
+  height: 447px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.vact_card > img {
+  width: 369px;
+  height: 327px;
+  object-fit: contain;
+}
 
-    .main_content_1 {
-      height: 142px;
-      align-items: center;
-      flex-direction: column;
-      justify-content: space-between;
+/* .country1 {
+  display: flex;
+  flex-direction: column;
+} */
 
-      .sub_content_1 {
-        h1 {
-          font-size: 48px;
+.vact_price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+.vact_second {
+  display: flex;
+  justify-content: space-between;
+}
 
-          .highlight {
-            color: #ee7f3f;
-          }
-        }
-      }
+.trips {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
 
-      .sub_content_2 {
-        p {
-          font-size: 18px;
-          color: #666666;
-          align-self: center;
-          text-align: center;
-        }
-      }
-
-      background-image: url("./asset/tree.png");
-      background-repeat: no-repeat;
-      background-position-x: 83.5%;
-      background-position-y: 10%;
-    }
-
-    .main_content_2 {
-      gap: 2%;
-      margin-top: 30px;
-      align-items: center;
-      justify-content: center;
-
-      .remove_border {
-        box-shadow: 0px 20px 30px 10px #ffe7db !important;
-        color: white !important;
-        border: none !important;
-      }
-
-      .box_content {
-        width: 370px;
-        height: 447px;
-        background-color: #ffffff;
-        border-radius: 18px;
-        border: 2px solid #6666661a;
-        display: flex;
-        flex-direction: column;
-
-        .sub_cnts1 {
-          width: 369px;
-          align-self: center;
-          img {
-            max-width: 100%;
-            object-fit: cover;
-          }
-
-          .Rome_Italty {
-            border-radius: 10px;
-          }
-        }
-
-        .sub_cnts2 {
-          justify-content: space-evenly;
-          flex-direction: column;
-          height: 100%;
-
-          .sub_content_1 {
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 16px;
-
-            h3 {
-              color: #222222;
-              font-size: 24px;
-            }
-
-            span {
-              color: #666666;
-              font-size: 16px;
-            }
-          }
-
-          .sub_content_2 {
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 16px;
-
-            .rating {
-              gap: 10%;
-              width: 50%;
-              justify-content: flex-end;
-            }
-            .Days {
-              width: 50%;
-              gap: 10%;
-              align-items: center;
-            }
-
-            span {
-              color: #666666;
-              font-size: 16px;
-            }
-
-            .original-price {
-              font-size: 16px;
-              color: #999;
-              /* Gray color for original price */
-              text-decoration: line-through;
-              /* Strike-through effect */
-            }
-
-            .discounted-price {
-              font-size: 18px;
-              color: #f9632f;
-              /* Bright orange color */
-              font-weight: bold;
-              background-color: #fff4ec;
-              /* Light orange background */
-              padding: 5px 10px;
-              border-radius: 5px;
-              /* Rounded corners */
-            }
-          }
-        }
-      }
-    }
-
-    .arrow_div {
-      width: 150px;
-      align-self: flex-end;
-      justify-content: space-evenly;
-
-      .arrow-container {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 40px;
-        /* Center vertically */
-      }
-
-      .left-arrow {
-        background-color: #fefcfb;
-        /* Light gray background */
-        border: 1px solid #999999;
-        /* Light gray border */
-        rotate: 180deg;
-        color: #999999;
-      }
-
-      .right-arrow {
-        background-color: #ff6347;
-        /* Orange background */
-        border: 1px solid #e65c3b;
-        /* Darker orange border */
-        color: #ffffff;
-      }
-
-      .arrow {
-        font-size: 24px;
-      }
-    }
-  }
+.flex {
+  display: flex;
+  gap: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -15px;
+}
+.flex > img {
+  object-fit: contain;
 }
 
 .section-5 {
